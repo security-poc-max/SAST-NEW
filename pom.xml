@@ -1270,5 +1270,9 @@
         <version.tomcat>9.0.115</version.tomcat>
         <tomcat.url>https://archive.apache.org/dist/tomcat/tomcat-${tomcat.major.version}/v${version.tomcat}/bin/apache-tomcat-${version.tomcat}.zip</tomcat.url>
     </properties>
+    <failOnMissingWebXml>false</failOnMissingWebXml>
+    <java.target>8</java.target>
+    <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+    <sonar.organization>security-poc-max</sonar.organization>
 
 </project>
